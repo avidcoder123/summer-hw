@@ -13,7 +13,7 @@ class Grades {
         for(int i = 0; i < entries; i++) {
 
             System.out.print(
-                String.format("Entry #%x: ", i + 1)
+                String.format("Entry #%d: ", i + 1)
             );
 
             if(isInt) {
